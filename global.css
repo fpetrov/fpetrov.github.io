@@ -30,6 +30,10 @@ section {
     transition: all 0.35s ease-in-out;
 }
 
+.icon:hover {
+	filter: invert(98%) sepia(3%) saturate(294%) hue-rotate(340deg) brightness(117%) contrast(77%) !important;
+}
+
 .icon-deactivated {
 	filter: invert(92%) sepia(10%) saturate(3%) hue-rotate(314deg) brightness(90%) contrast(88%);
 }
