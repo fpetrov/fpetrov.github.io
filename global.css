@@ -24,6 +24,10 @@ section {
 	align-items: center;
 }
 
+::selection {
+    background: #bed4ff !important;
+}
+
 .icon {
 	width: 30px;
     height: 30px;
