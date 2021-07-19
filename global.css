@@ -1,19 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+:root {
+	--main-color: #121212;
+	--text-color: white;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 body {
-	color: white;
+	color: var(--text-color);
+	background-color: var(--main-color);
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	box-sizing: border-box;
 	font-family: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
 }
 
 section {
@@ -24,14 +38,11 @@ section {
 	align-items: center;
 }
 
-::selection {
-    background: #bed4ff !important;
-}
-
 .icon {
 	width: 30px;
     height: 30px;
     transition: all 0.35s ease-in-out;
+	filter: invert(98%) sepia(3%) saturate(294%) hue-rotate(340deg) brightness(117%) contrast(77%);
 }
 
 .icon:hover {
