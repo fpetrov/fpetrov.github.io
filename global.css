@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 :root {
-	--main-color: #121212;
+	--main-color: black; /* #121212 */
 	--text-color: white;
 }
 
@@ -42,17 +42,9 @@ section {
 	width: 30px;
     height: 30px;
     transition: all 0.35s ease-in-out;
-	filter: invert(98%) sepia(3%) saturate(294%) hue-rotate(340deg) brightness(117%) contrast(77%);
+	filter: invert(92%) sepia(10%) saturate(3%) hue-rotate(314deg) brightness(90%) contrast(88%);
 }
 
 .icon:hover {
 	filter: invert(98%) sepia(3%) saturate(294%) hue-rotate(340deg) brightness(117%) contrast(77%) !important;
-}
-
-.icon-deactivated {
-	filter: invert(92%) sepia(10%) saturate(3%) hue-rotate(314deg) brightness(90%) contrast(88%);
-}
-
-.icon-active {
-	filter: invert(98%) sepia(3%) saturate(294%) hue-rotate(340deg) brightness(117%) contrast(77%);
 }
