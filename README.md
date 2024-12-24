@@ -1,11 +1,4 @@
-<style>
-    img {
-        width: 100px;
-        margin-left: calc(50% - 100px);
-    }
-</style>
-
-![Лого ФКН](.github/fcs_logo.webp)
+<p align="center"><img height="100" alt="Лого ФКН" width="100" src=".github/fcs_logo.webp"></p>
 
 # ⁉ Что это?
 Конспекты второго модуля алгоритмов и структур данных НИУ ВШЭ факультета ПМИ.
